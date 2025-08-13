@@ -24,16 +24,16 @@
 Displays server population.
 
 **Example output:**
-\`\`\`
+```
 Server Pop:
 25/100 online
 5 sleeping
-\`\`\`
+```
 
 **Cooldown message example:**
-\`\`\`
+```
 Wait 5.0s before using /pop again.
-\`\`\`
+```
 
 ---
 
@@ -43,7 +43,7 @@ Wait 5.0s before using /pop again.
 
 **Default configuration:**
 
-\`\`\`json
+```json
 {
   "CooldownMs": 10000,
   "TitleColor": "yellow",
@@ -51,7 +51,7 @@ Wait 5.0s before using /pop again.
   "SleepingColor": "orange",
   "MessageFormat": "<color={TitleColor}>Server Pop:</color>\n<color={OnlineColor}>{online}/{maxPlayers}</color> online\n<color={SleepingColor}>{sleeping}</color> sleeping"
 }
-\`\`\`
+```
 
 ### Configuration Options
 
