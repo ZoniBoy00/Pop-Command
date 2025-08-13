@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Oxide.Plugins
 {
-    [Info("Pop Command", "ZoniBoy00", "1.1.0")]
+    [Info("Pop Command", "ZoniBoy00", "1.0.0")]
     [Description("Displays server population with cooldown")]
 
     class PopCommand : RustPlugin
@@ -81,3 +81,4 @@ namespace Oxide.Plugins
         }
     }
 }
+
